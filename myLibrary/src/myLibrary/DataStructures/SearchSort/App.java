@@ -65,10 +65,10 @@ public class App {
 		System.out.println("Input Array: "+Arrays.toString(arr_sort));
 		
 		// Apply a sorting algorithm
-		S.X_Sort();
+		int[] arr_sorted=S.X_Sort(arr_sort);
 		
 		// Show sorted array
-		System.out.println("Sorted Array: "+Arrays.toString(arr_sort));
+		System.out.println("Sorted Array: "+Arrays.toString(arr_sorted));
 	}
 
 }
