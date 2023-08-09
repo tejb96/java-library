@@ -5,7 +5,7 @@ public class Stack {
 	int top;
 	int[] stack;
 	// Define stack
-	Stack(int max){
+	public Stack(int max){
 		this.max=max;
 		stack=new int[this.max];
 		top=-1;
@@ -47,5 +47,7 @@ public class Stack {
 	}
 	
 	// Add any other parts needed
-
+	public boolean isEmpty() {
+		return (top == -1);
+	}
 }

@@ -54,4 +54,7 @@ public class Queue {
 	}
 
 	// Add any other parts needed
+	public boolean isEmpty() {
+		return (head == -1 || head > tail);
+	}
 }

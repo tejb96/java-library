@@ -49,7 +49,7 @@ public class BFS
 			}
 			t++;
 		}
-		for(int i=0;i<visited.length;i++) {
+		for(int i=0;i<t;i++) {
 			System.out.print(visit[i]+" - ");				
 		}
 		System.out.println("\nVisited nodes: "+ Arrays.toString(visited));
