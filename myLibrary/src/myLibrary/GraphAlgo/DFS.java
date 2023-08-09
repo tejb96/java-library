@@ -20,14 +20,14 @@ public class DFS {
 		visit=new int[num_nodes];
 	}	
 	// Add edge to graph
-    void addEdge(int v, int w)
+    public void addEdge(int v, int w)
     {
     	adjMat.addEdge(v, w, 1);
     }
  
     // Apply DFS algorithm and display the nodes visited and the visit array values
     // See the sample output to create a proper format
-    void DFS_Algo(int v)
+    public void DFS_Algo(int v)
     {
     	int vis=v;
     	int[][] adjMatrix=adjMat.getAdjacencyMatrix();

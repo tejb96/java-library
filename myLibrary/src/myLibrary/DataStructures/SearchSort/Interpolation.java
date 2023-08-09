@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Interpolation {
 	
 	// Apply interpolation search
-	int interpolationSearchIterative(int[] array, int key)
+	public int interpolationSearchIterative(int[] array, int key)
 	{
 		Arrays.sort(array);
 		int low =0, high = array.length-1;
