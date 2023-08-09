@@ -4,7 +4,7 @@ public class BST {
 
 	// Create node
 	Node root;
-	BST(){root=null;}
+	public BST(){root=null;}
 	// Insert new node in BST - you can use recursive or iterative method
 	public Node insert(int data, Node root) 
 	{
